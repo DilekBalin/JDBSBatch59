@@ -16,7 +16,11 @@ public class Query02 {
             //+ veri.getString(3) + veri.getString(4));
 
 
-            System.out.printf("%-6d %-15.15s %-8s %-8s\n", veri.getInt(1), veri.getString(2), veri.getString(3), veri.getString(4));
+            System.out.printf("%-6d %-15.15s %-8s %-8s\n",
+                    veri.getInt(1),
+                    veri.getString(2),
+                    veri.getString(3),
+                    veri.getString(4));
         }
 
         //SORU02: ÖĞRENCİLER TABLOSUNDAKİ  9. SINIF, KIZ ÖĞRENCİ BİLGİLERİ GETİRİN

@@ -23,7 +23,7 @@ public class Query01 {
 
          //index kullanarak yaptik
         // System.out.println(veri.getInt(1)+veri.getString(2)+
-               //  veri.getString(3)+veri.getString(4));
+               //  veri.getString(3)+veri.getString(4));  > mySqlde olan bolumler javada,int,stringe denk geliyor
 
 
          //sutun ismi kullanarak yaptik
@@ -31,7 +31,11 @@ public class Query01 {
               //   veri.getString("sinif")+veri.getString("cinsiyet"));
 
          //printf ile
-         System.out.printf("%-6d %-15.15s %-8s %-8s\n", veri.getInt(1), veri.getString(2), veri.getString(3), veri.getString(4));
+         System.out.printf("%-6d %-15.15s %-8s %-8s\n",
+                 veri.getInt(1),
+                 veri.getString(2),
+                 veri.getString(3),
+                 veri.getString(4));
 
 
 
